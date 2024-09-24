@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: url("fog.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-color: transparent;
+}
+
+.form-box {
+    width: 400px;
+    height: auto; 
+    position: relative;
+    margin: 6% auto;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.social-icons{
+    margin-top: 5px;
+    text-align: center;
+}
+.social-icons img{
+   width: 20px;
+   padding-right: 20px;
+}
+
+.togg-btn {
+    padding: 20px 180px;
+    cursor: pointer;
+    background: rgb(225, 90, 8);
+    border: 0;
+    outline: none;
+    position: relative;
+    color: white;
+    border-radius: 5px;
+}
+    
+
+.togg-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px; /* Adjusted font-size */
+    color: #2b238d;
+    position: relative;
+}
+
+.togg-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.togg-box label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #666;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.togg-box input:focus ~ label,
+.togg-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #ff6124;
+    font-size: 12px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+  }
+  .remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  
+  }
+  .remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+  .wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;P
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    
+  }
+  .wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+  
+  }
+  .register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
